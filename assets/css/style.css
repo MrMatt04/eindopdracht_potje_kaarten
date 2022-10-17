@@ -11,11 +11,21 @@ body {
   padding: 5px;
   font-size: 20px;
 }
-#card1 > img {
-    margin: left 10px;
+.corner-number-top {
+
+}
+.small-icon-top{
+
+}
+.pip {
+
+}
+.small-icon-bottom {
+
+}
+.corner-number-bottom {
     
 }
-
 #card2 {
   position: absolute;
   left: 169px;
