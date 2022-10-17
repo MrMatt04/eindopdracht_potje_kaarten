@@ -1,15 +1,22 @@
 body {
   background-color: green;
 }
-#card1 {
-  position: absolute;
+.a {
+  position: relative;
   width: 149px;
-  height: 207px;
+  /* height: 207px; */
   border-radius: 5%;
   background: white;
   margin: 5px;
   padding: 5px;
   font-size: 20px;
+}
+.container {
+    text-align: center;
+    display: inline-block;
+}
+.container.bottom {
+    float: right;
 }
 .corner-number-top {
 
@@ -18,41 +25,25 @@ body {
 
 }
 .pip {
-
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: center;
 }
 .small-icon-bottom {
-
+rotate: 180deg;
 }
 .corner-number-bottom {
-    
+rotate: 180deg;
+}
+.clearfix {
+    clear: both;
 }
 #card2 {
-  position: absolute;
-  left: 169px;
-  top: 227px;
-  width: 149px;
-  height: 207px;
-  border-radius: 5%;
-  background: white;
-  margin: 5px;
+    margin-left: 25%;
 }
 #card3 {
-  position: absolute;
-  left: 318px;
-  top: 434px;
-  width: 149px;
-  height: 207px;
-  border-radius: 5%;
-  background: white;
-  margin: 5px;
+    margin-left: 50%;
 }
 #card4 {
-    position: absolute;
-    left: 467px;
-    top: 641px;
-    width: 149px;
-    height: 207px;
-    border-radius: 5%;
-    background: white;
-    margin: 5px;
+    margin-left: 70%;
 }
