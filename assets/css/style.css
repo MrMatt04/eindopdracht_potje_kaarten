@@ -1,0 +1,48 @@
+body {
+  background-color: green;
+}
+#card1 {
+  position: absolute;
+  width: 149px;
+  height: 207px;
+  border-radius: 5%;
+  background: white;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
+#card1 > img {
+    margin: left 10px;
+    
+}
+
+#card2 {
+  position: absolute;
+  left: 169px;
+  top: 227px;
+  width: 149px;
+  height: 207px;
+  border-radius: 5%;
+  background: white;
+  margin: 5px;
+}
+#card3 {
+  position: absolute;
+  left: 318px;
+  top: 434px;
+  width: 149px;
+  height: 207px;
+  border-radius: 5%;
+  background: white;
+  margin: 5px;
+}
+#card4 {
+    position: absolute;
+    left: 467px;
+    top: 641px;
+    width: 149px;
+    height: 207px;
+    border-radius: 5%;
+    background: white;
+    margin: 5px;
+}
